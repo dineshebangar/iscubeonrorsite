@@ -1,0 +1,59 @@
+﻿<% @page_title = "Portfolio"%>
+
+<h3>Our demo projects on Heroku</h3>
+
+<table border=0>
+<tr>
+<td><%= link_to ( image_tag "itarms.bmp", :size => "300x300"), "http://it-arms.herokuapp.com/", {:target => '_blank'} %></td>
+<td>
+    <h4>IT-Arms</h4>
+<br>
+<br>  <p> 
+    * Maintain Asset Register by classifying them into categories such as Hardware, Software, Documents, etc. <br>
+    * Maintain Asset Movement Register. <br>
+    * Have your own database for all possible Threats applicable to you and Vulnerabilities. <br>
+    * Identify Risks for each asset. ITARMS will give you Risk Level (High, Medium and Low) <br>
+    * Apply control to mitigate these risks. ITARMS will arrive at new Risk Values for you. <br>
+    * Prepare Risk Mitigation Plan. <br>
+    * Dashboard. </p>
+</td>
+</tr>
+
+<br>
+<br>
+
+<tr>
+<td><%= link_to ( image_tag "studentenroll.bmp", :size => "300x300"), "http://studentenrollment.herokuapp.com/", {:target => '_blank'} %></td>
+<td>
+<h4>Student Enrollment</h4>
+<br>
+<br>
+The application can be used to add, edit information of students, clerks, teachers, subjects, classes and help to maintain all the information in good way.  </td>
+</tr>
+
+<br>
+<br>
+
+<tr>
+<td><%= link_to ( image_tag "visitor.jpg", :size => "300x300"), "http://visitor-reg.herokuapp.com/", {:target => '_blank'} %></td>
+<td>
+<h4>Visitor Registration</h4>
+<br>
+<br>
+This visitor management application records each in and out of a visitor. The application optionally captures image of the visitor along with other few details, besides displaying relevant statistics about the visitors.
+</td>
+</tr>
+
+</table>
+
+<br>
+<br>
+	
+<p>
+
+</p>
+	
+<%= javascript_include_tag "jquery-1.2.3.min.js" %>
+<%= javascript_include_tag "easySlider1.5.js" %>
+<%= javascript_include_tag "jquery.easing.min.js" %>
+<%= javascript_include_tag "jquery.lavalamp.min.js" %>
